@@ -1,0 +1,45 @@
+.animatedBorder {
+  /*w-[15rem] h-[4rem] text-center relative bg-yellow-400  rounded-2xl*/
+  height: 4rem;
+  width: 15rem;
+  text-align: center;
+  position: relative;
+  background: black;
+  border-radius: 20px;
+}
+
+.animatedBorder::after, .animatedBorder::before {
+  content: "";
+  position: absolute;
+  width: 15.5rem;
+  height: 4.5rem;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  z-index: -1;
+  border-radius: 20px;
+  background: #975420;
+  background-image: conic-gradient(from var(--angle), transparent 40%, #000000, #532623, #975420, #bb9900, #a8eb12);
+  animation: 3s spin linear infinite;
+}
+
+ .animatedBorder::before{
+    filter: blur(1.3rem);
+    opacity: 0.4;
+    z-index: 1;
+} 
+
+@property --angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}

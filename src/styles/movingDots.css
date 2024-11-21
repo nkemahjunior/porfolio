@@ -1,0 +1,479 @@
+.moveRound1 {
+  animation-name: orbit1;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound2 {
+  animation-name: orbit2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound3 {
+  animation-name: orbit3;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+.moveRound4 {
+  animation-name: orbit4;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 4s;
+}
+
+.moveRound5 {
+  animation-name: orbit5;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound6 {
+  animation-name: orbit6;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 5s;
+}
+
+.moveRound7 {
+  animation-name: orbit7;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+.moveRound8 {
+  animation-name: orbit8;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound9 {
+  animation-name: orbit9;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound10 {
+  animation-name: orbit10;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+}
+
+.moveRound11 {
+  animation-name: orbit11;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound12 {
+  animation-name: orbit12;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound13 {
+  animation-name: orbit13;
+  animation-duration: 32s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+.moveRound14 {
+  animation-name: orbit14;
+  animation-duration: 18s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound15 {
+  animation-name: orbit15;
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound16 {
+  animation-name: orbit16;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 6s;
+}
+
+.moveRound17 {
+  animation-name: orbit17;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound18 {
+  animation-name: orbit18;
+  animation-duration: 29s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+.moveRound19 {
+  animation-name: orbit19;
+  animation-duration: 22s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound20 {
+  animation-name: orbit20;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound21 {
+  animation-name: orbit21;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+}
+
+.moveRound22 {
+  animation-name: orbit22;
+  animation-duration: 16s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound23 {
+  animation-name: orbit23;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound24 {
+  animation-name: orbit24;
+  animation-duration: 14s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound25 {
+  animation-name: orbit25;
+  animation-duration: 17s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+}
+
+.moveRound26 {
+  animation-name: orbit26;
+  animation-duration: 28s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound27 {
+  animation-name: orbit27;
+  animation-duration: 19s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound28 {
+  animation-name: orbit28;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound29 {
+  animation-name: orbit29;
+  animation-duration: 23s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.moveRound30 {
+  animation-name: orbit30;
+  animation-duration: 32s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes orbit1 {
+  from {
+    transform: rotate(0deg) translateX(5rem);
+  } /* move from center of origin to the right 5rem, dont rotate*/
+  to {
+    transform: rotate(360deg) translateX(5rem);
+  } /* move from center of origin to the right 5rem, do a 360 turn now = circle*/
+}
+
+
+@keyframes orbit1 {
+  from {
+    transform: rotate(0deg) translateX(2rem);
+  } 
+  to {
+    transform: rotate(360deg) translateX(2rem);
+  } 
+}
+
+
+@keyframes orbit2 {
+  from {
+    transform: rotate(0deg) translateY(14rem);
+  } 
+  to {
+    transform: rotate(360deg) translateY(14rem);
+  } 
+}
+
+@keyframes orbit3 {
+  from {
+    transform: rotate(0deg) translateX(6rem) ;
+  } 
+  to {
+    transform: rotate(360deg) translateX(6rem) ;
+  } 
+}
+
+@keyframes orbit4 {
+  from {
+    transform: rotate(0deg) translateX(-32rem) ;
+  } 
+  to {
+    transform: rotate(-360deg) translateX(-32rem) ;
+  } 
+}
+
+
+@keyframes orbit5 {
+  from {
+    transform: rotate(0deg) translateX(34rem) ;
+  } 
+  to {
+    transform: rotate(360deg) translateX(34rem) ;
+  } 
+}
+
+@keyframes orbit6 {
+  from {
+    transform: rotate(0deg) translateX(28rem) ;
+  } 
+  to {
+    transform: rotate(360deg) translateX(28rem) ;
+  } 
+}
+
+
+@keyframes orbit7 {
+  from {
+    transform: rotate(0deg) translateX(-32rem) ;
+  } 
+  to {
+    transform: rotate(-360deg) translateX(-32rem) ;
+  } 
+}
+
+@keyframes orbit8 {
+  from {
+    transform: rotate(0deg) translateX(10rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(10rem);
+  }
+}
+
+@keyframes orbit9 {
+  from {
+    transform: rotate(0deg) translateX(36rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(36rem);
+  }
+}
+
+@keyframes orbit10 {
+  from {
+    transform: rotate(0deg) translateX(14rem);
+  }
+  to {
+    transform: rotate(-360deg) translateX(14rem);
+  }
+}
+
+@keyframes orbit11 {
+  from {
+    transform: rotate(0deg) translateX(16rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(16rem);
+  }
+}
+
+@keyframes orbit12 {
+  from {
+    transform: rotate(0deg) translateX(32rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(31rem);
+  }
+}
+
+@keyframes orbit13 {
+  from {
+    transform: rotate(0deg) translateX(14rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(14rem);
+  }
+}
+
+@keyframes orbit14 {
+  from {
+    transform: rotate(0deg) translateX(9rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(9rem);
+  }
+}
+
+@keyframes orbit15 {
+  from {
+    transform: rotate(0deg) translateX(5rem);
+  }
+  to {
+    transform: rotate(-360deg) translateX(5rem);
+  }
+}
+
+@keyframes orbit16 {
+  from {
+    transform: rotate(0deg) translateX(23rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(23rem);
+  }
+}
+
+@keyframes orbit17 {
+  from {
+    transform: rotate(0deg) translateX(34rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(34rem);
+  }
+}
+
+@keyframes orbit18 {
+  from {
+    transform: rotate(0deg) translateX(10rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(10rem);
+  }
+}
+
+@keyframes orbit19 {
+  from {
+    transform: rotate(0deg) translateX(20rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(20rem);
+  }
+}
+
+@keyframes orbit20 {
+  from {
+    transform: rotate(0deg) translateX(25rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(25rem);
+  }
+}
+
+@keyframes orbit21 {
+  from {
+    transform: rotate(0deg) translateX(26rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(26rem);
+  }
+}
+
+@keyframes orbit22 {
+  from {
+    transform: rotate(0deg) translateX(16rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(16rem);
+  }
+}
+
+@keyframes orbit23 {
+  from {
+    transform: rotate(0deg) translateX(10rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(10rem);
+  }
+}
+
+@keyframes orbit24 {
+  from {
+    transform: rotate(0deg) translateX(12rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(12rem);
+  }
+}
+
+@keyframes orbit25 {
+  from {
+    transform: rotate(0deg) translateX(19rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(19rem);
+  }
+}
+
+@keyframes orbit26 {
+  from {
+    transform: rotate(0deg) translateX(30rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(30rem);
+  }
+}
+
+@keyframes orbit27 {
+  from {
+    transform: rotate(0deg) translateX(24rem);
+  }
+  to {
+    transform: rotate(360deg) translateX(24rem);
+  }
+}
+
+
+

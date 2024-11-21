@@ -1,0 +1,114 @@
+.animate-lightBeam {
+  animation-name: lightBeamSM;
+  animation-duration: 900ms;
+  animation-delay: 3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  height: 50rem;
+}
+
+@keyframes lightBeamSM {
+    from{
+        height: 0rem;
+        width: 0rem;
+        top: 0rem;
+        /* transform: rotate(0deg); */
+        transform: rotate(-20deg);
+    }
+    to{
+        width: 10rem;
+        height:50rem ;
+        top: -20rem;
+        transform: rotate(-20deg);
+    }
+}
+
+
+@keyframes lightBeamMD {
+    from{
+        height: 0rem;
+        width: 0rem;
+        top: 0rem;
+        /* transform: rotate(0deg); */
+        transform: rotate(40deg);
+    }
+    to{
+        width: 10rem;
+        height:90rem ;
+        top: -40rem;
+        transform: rotate(40deg);
+    }
+}
+
+@keyframes lightBeamLG {
+    from{
+        height: 0rem;
+        width: 0rem;
+        top: 0rem;
+        /* transform: rotate(0deg); */
+        transform: rotate(-45deg);
+    }
+    to{
+        width: 10rem;
+        height:110rem ;
+        top: -50rem;
+        transform: rotate(-45deg);
+    }
+}
+
+@keyframes lightBeamXL {
+    from{
+        height: 0rem;
+        width: 0rem;
+        top: 0rem;
+        /* transform: rotate(0deg); */
+        transform: rotate(-65deg);
+    }
+    to{
+        width: 10rem;
+        height:100rem ;
+        top: -45rem;
+        transform: rotate(-65deg);
+    }
+}
+
+@keyframes lightBeam2XL {
+    from{
+        height: 0rem;
+        width: 0rem;
+        top: 0rem;
+        /* transform: rotate(0deg); */
+        transform: rotate(-70deg);
+    }
+    to{
+        width: 10rem;
+        height:120rem ;
+        top: -56rem;
+        transform: rotate(-70deg);
+    }
+}
+
+@media (min-width: 768px) {
+  .animate-lightBeam {
+    animation-name: lightBeamMD;
+  }
+}
+
+@media (min-width: 1024px) {
+  .animate-lightBeam {
+   animation-name: lightBeamLG;
+  }
+}
+
+@media (min-width: 1280px) {
+  .animate-lightBeam {
+    animation-name: lightBeamXL;
+  }
+}
+
+@media (min-width: 1536px) {
+  .animate-lightBeam {
+   animation-name: lightBeam2XL;
+  }
+}
