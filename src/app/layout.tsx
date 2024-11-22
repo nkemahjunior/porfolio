@@ -1,20 +1,6 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
-import { lato, SyncopateF } from "@/styles/fonts";
-
-
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import { lato } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: "nkemah junior portfolio",
@@ -30,7 +16,7 @@ export default function RootLayout({
     //${geistSans.variable} ${geistMono.variable}
     <html lang="en">
       <body
-        className={` antialiased bg-black text-white ${lato.className}`}
+        className={` antialiased bg-black text-white ${lato.className}  max-w-full overflow-x-hidden `}
       >
         {children}
       </body>

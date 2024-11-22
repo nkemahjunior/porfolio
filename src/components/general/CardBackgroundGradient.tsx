@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import useChangeCardGradient from "@/hooks/useChangeCardGradient";
 
@@ -39,7 +39,7 @@ export default function CardBackgroundGradient({
       }}
       animate={{
         background: `linear-gradient(to right, ${colors[currentColorArr].join(
-          ", "
+          ", ",
         )}`,
       }}
       transition={{ duration: 2, ease: "linear", repeat: Infinity }}

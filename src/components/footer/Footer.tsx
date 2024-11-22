@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { BsGithub, BsLinkedin, BsTwitterX } from "react-icons/bs";
-import { RiTwitterXFill } from "react-icons/ri";
 
 export default function Footer() {
   return (

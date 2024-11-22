@@ -1,9 +1,6 @@
-
-import "@/styles/movingBorder.css"
-import { div } from "framer-motion/client";
+import "@/styles/movingBorder.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
-
 
 export default function HeroButton() {
   const sharedTransition = { duration: 0.5, delay: 0.2, ease: "easeOut" };
@@ -27,5 +24,4 @@ export default function HeroButton() {
       </Link>
     </motion.div>
   );
- 
 }

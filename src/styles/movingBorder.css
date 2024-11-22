@@ -8,7 +8,8 @@
   border-radius: 20px;
 }
 
-.animatedBorder::after, .animatedBorder::before {
+.animatedBorder::after,
+.animatedBorder::before {
   content: "";
   position: absolute;
   width: 15.5rem;
@@ -19,15 +20,23 @@
   z-index: -1;
   border-radius: 20px;
   background: #975420;
-  background-image: conic-gradient(from var(--angle), transparent 40%, #000000, #532623, #975420, #bb9900, #a8eb12);
+  background-image: conic-gradient(
+    from var(--angle),
+    transparent 40%,
+    #000000,
+    #532623,
+    #975420,
+    #bb9900,
+    #a8eb12
+  );
   animation: 3s spin linear infinite;
 }
 
- .animatedBorder::before{
-    filter: blur(1.3rem);
-    opacity: 0.4;
-    z-index: 1;
-} 
+.animatedBorder::before {
+  filter: blur(1.3rem);
+  opacity: 0.4;
+  z-index: 1;
+}
 
 @property --angle {
   inherits: false;

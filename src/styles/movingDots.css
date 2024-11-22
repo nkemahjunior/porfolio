@@ -50,7 +50,6 @@
   animation-timing-function: linear;
 }
 
-
 .moveRound8 {
   animation-name: orbit8;
   animation-duration: 10s;
@@ -218,7 +217,6 @@
   animation-timing-function: linear;
 }
 
-
 @keyframes orbit1 {
   from {
     transform: rotate(0deg) translateX(5rem);
@@ -228,71 +226,67 @@
   } /* move from center of origin to the right 5rem, do a 360 turn now = circle*/
 }
 
-
 @keyframes orbit1 {
   from {
     transform: rotate(0deg) translateX(2rem);
-  } 
+  }
   to {
     transform: rotate(360deg) translateX(2rem);
-  } 
+  }
 }
-
 
 @keyframes orbit2 {
   from {
     transform: rotate(0deg) translateY(14rem);
-  } 
+  }
   to {
     transform: rotate(360deg) translateY(14rem);
-  } 
+  }
 }
 
 @keyframes orbit3 {
   from {
-    transform: rotate(0deg) translateX(6rem) ;
-  } 
+    transform: rotate(0deg) translateX(6rem);
+  }
   to {
-    transform: rotate(360deg) translateX(6rem) ;
-  } 
+    transform: rotate(360deg) translateX(6rem);
+  }
 }
 
 @keyframes orbit4 {
   from {
-    transform: rotate(0deg) translateX(-32rem) ;
-  } 
+    transform: rotate(0deg) translateX(-32rem);
+  }
   to {
-    transform: rotate(-360deg) translateX(-32rem) ;
-  } 
+    transform: rotate(-360deg) translateX(-32rem);
+  }
 }
-
 
 @keyframes orbit5 {
   from {
-    transform: rotate(0deg) translateX(34rem) ;
-  } 
+    transform: rotate(0deg) translateX(34rem);
+  }
   to {
-    transform: rotate(360deg) translateX(34rem) ;
-  } 
+    transform: rotate(360deg) translateX(34rem);
+  }
 }
 
 @keyframes orbit6 {
   from {
-    transform: rotate(0deg) translateX(28rem) ;
-  } 
+    transform: rotate(0deg) translateX(28rem);
+  }
   to {
-    transform: rotate(360deg) translateX(28rem) ;
-  } 
+    transform: rotate(360deg) translateX(28rem);
+  }
 }
-
 
 @keyframes orbit7 {
   from {
-    transform: rotate(0deg) translateX(-32rem) ;
-  } 
+    transform: rotate(0deg) translateX(-32rem);
+  }
   to {
-    transform: rotate(-360deg) translateX(-32rem) ;
-  } 
+    transform: rotate(-360deg) translateX(-32rem);
+  }
 }
 
 @keyframes orbit8 {
@@ -474,6 +468,3 @@
     transform: rotate(360deg) translateX(24rem);
   }
 }
-
-
-

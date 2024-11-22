@@ -1,16 +1,25 @@
+"use client";
 import { FrijoleF } from "@/styles/fonts";
 import Link from "next/link";
-import CardBackgroundGradient from "../general/CardBackgroundGradient";
+import { motion } from "framer-motion";
 import ProjectsCard from "./ProjectsCard";
 
 export default function MyProjects() {
   return (
-    <div className="  mt-16 md:mt-20 space-y-6 md:space-y-10 ">
-      <h1
+    <div id="projects" className="  mt-20 md:mt-28 space-y-10 md:space-y-20 ">
+      <motion.h1
+        initial={{ y: 100 }}
+        whileInView={{ y: 0 }}
+        viewport={{ amount: 0.2, once: true }}
+        transition={{
+          duration: 0.1,
+          ease: "linear",
+          delay: 0.1,
+        }}
         className={` text-center text-4xl md:text-6xl xl:text-7xl hover:text-gray-400  ${FrijoleF.className}`}
       >
         <Link href={"#"}>My Projects</Link>
-      </h1>
+      </motion.h1>
 
       <div className="  space-y-16 md:space-y-20">
         <ProjectsCard

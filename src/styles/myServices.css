@@ -1,5 +1,12 @@
-
-.radialGradient::before{
-    filter: blur(1.8rem);
-    background-image: radial-gradient(circle, red, yellow, green, blue, pink, purple);
+.radialGradient::before {
+  filter: blur(1.8rem);
+  background-image: radial-gradient(
+    circle,
+    red,
+    yellow,
+    green,
+    blue,
+    pink,
+    purple
+  );
 }
