@@ -2,8 +2,8 @@ import { Transition, Variants } from "framer-motion";
 
 const trans:Transition = {
   duration: 0.9,
-  //delay: 3,
-  //ease: "linear",
+  delay: 3,
+  ease: "linear",
   
   // type: "spring",
   // bounce: 0.7,
