@@ -37,5 +37,6 @@ export function useObserver() {
       observer.observe(cur!);
     }
     return () => observer.unobserve(cur!);
-  }, [refObserver, options]);
+  }, []);
 }
+//[refObserver,options])

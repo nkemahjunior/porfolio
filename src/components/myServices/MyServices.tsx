@@ -10,9 +10,9 @@ export default function MyServices() {
   return (
     <div id="services" className="   md:mt-20 space-y-14 md:space-y-20 ">
       <motion.h1
-        initial={{ y: 100 }}
-        whileInView={{ y: 0 }}
-        viewport={{ amount: 0.2, once: true }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ amount: 0.4, once: true }}
         transition={{
           duration: 0.1,
           ease: "linear",

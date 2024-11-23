@@ -17,9 +17,8 @@ export default function IntroText() {
   return (
     <>
       <motion.p
-        initial={{ y: 100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -100, opacity: 0 }}
+        initial={{ /*y: 100,*/ opacity: 0 }}
+        animate={{ /*y: 0,*/ opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
         className={`text-5xl md:text-8xl  ${FrijoleF.className} `}
       >
@@ -30,20 +29,19 @@ export default function IntroText() {
       </motion.p>
 
       <motion.div
-        initial={{ y: 100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        exit={{ y: -100, opacity: 0 }}
+        initial={{ /*y: 100,*/ opacity: 0 }}
+        animate={{ /*y: 0,*/ opacity: 1 }}
         transition={{
-          type: "spring",
-          stiffness: 300,
-          damping: 10,
+          // type: "spring",
+          // stiffness: 300,
+          // damping: 10,
           duration: 0.5,
           delay: 0.1,
           ease: "easeOut",
         }}
         className=" text-center mt-6  text-2xl md:text-4xl     "
       >
-        I build <FlipWords words={words} className="text-white" /> websites
+        I build<FlipWords words={words} className="text-white" />websites
       </motion.div>
     </>
   );

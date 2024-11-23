@@ -8,7 +8,9 @@ export default function CardTextOnly({
 }: {
   heading: string;
   text: string;
-}) {
+  }) {
+  
+  const mango = 0;
   return (
     <div
       style={{

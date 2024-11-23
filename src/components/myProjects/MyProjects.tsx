@@ -8,9 +8,9 @@ export default function MyProjects() {
   return (
     <div id="projects" className="  mt-20 md:mt-28 space-y-10 md:space-y-20 ">
       <motion.h1
-        initial={{ y: 100 }}
-        whileInView={{ y: 0 }}
-        viewport={{ amount: 0.2, once: true }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ amount: 0.4, once: true }}
         transition={{
           duration: 0.1,
           ease: "linear",
