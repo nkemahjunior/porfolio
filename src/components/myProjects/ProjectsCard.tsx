@@ -5,6 +5,7 @@ import ProjectDesc from "./ProjectDesc";
 import { motion } from "framer-motion";
 
 interface fnProps {
+  underDevelopment: boolean
   cardDesc: string;
   githubLink: string;
   liveLink: string;
@@ -12,6 +13,7 @@ interface fnProps {
 }
 
 export default function ProjectsCard({
+  underDevelopment,
   cardDesc,
   imagePath,
   githubLink,
@@ -64,6 +66,7 @@ export default function ProjectsCard({
           </Link>
 
           <ProjectDesc
+            underDevelopment={underDevelopment}
             cardDesc={cardDesc}
             githubLink={githubLink}
             liveLink={liveLink}

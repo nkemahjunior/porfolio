@@ -1,12 +1,15 @@
 import ProjectButton from "./ProjectButton";
+import ProjectUnderDevelopmentBtn from "./ProjectUnderDevelopmentBtn";
 
 interface fnProps {
+  underDevelopment: boolean;
   cardDesc: string;
   githubLink: string;
   liveLink: string;
 }
 
 export default function ProjectDesc({
+  underDevelopment,
   cardDesc,
   githubLink,
   liveLink,
@@ -18,7 +21,11 @@ export default function ProjectDesc({
 
         <div className=" flex w-full justify-center space-x-4 md:space-x-6 text-black  ">
           <ProjectButton link={githubLink}>View Source</ProjectButton>
-          <ProjectButton link={liveLink}>Live</ProjectButton>
+          {underDevelopment ? (
+            <ProjectUnderDevelopmentBtn />
+          ) : (
+            <ProjectButton link={liveLink}>Live</ProjectButton>
+          )}
         </div>
       </div>
     </div>

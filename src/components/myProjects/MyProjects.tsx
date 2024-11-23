@@ -23,12 +23,21 @@ export default function MyProjects() {
 
       <div className="  space-y-16 md:space-y-20">
         <ProjectsCard
+          underDevelopment={true}
+          cardDesc=" This is a food delivery application where users can browse different dishes from different restaurants, make orders and receive their food at their desired location"
+          githubLink="https://github.com/nkemahjunior/zeco-eats"
+          liveLink="https://github.com/nkemahjunior/zeco-eats"
+          imagePath="/eats.webp"
+        />
+        <ProjectsCard
+        underDevelopment={false}
           cardDesc=" This platform allows patients to book appointments with doctors and receive their consultation results. For doctors the platform enable them to send tests to the various laboratories and receive the results back from the lab technicians"
           githubLink="https://github.com/nkemahjunior/zecomedicalFrontend"
           liveLink="https://zecomedical.vercel.app/"
           imagePath="/medical.webp"
         />
         <ProjectsCard
+        underDevelopment={false}
           cardDesc="This is a modern and user-friendly e-commerce platform designed
                 for browsing and purchasing clothing across various categories.
                 The site features a clean and intuitive interface that ensures a
@@ -40,6 +49,7 @@ export default function MyProjects() {
         />
 
         <ProjectsCard
+        underDevelopment={false}
           cardDesc="A student management platform , where students can register for main, minor and elective courses, and view their results."
           githubLink="https://github.com/nkemahjunior/go-Student"
           liveLink="https://go-student.vercel.app/"

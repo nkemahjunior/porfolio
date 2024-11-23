@@ -32,20 +32,17 @@ export default function MyServices() {
           <div className={`   sticky lg:static lg:top-auto top-0 rounded-2xl `}>
             <CardTextOnly
               heading="Front-end Development"
-              text="I design and develop responsive user interfaces that work seamlessly
-            across devices. My focus is on clean layouts, smooth interactions,
-            and optimizing performance to deliver a user-friendly experience.
-            Each project is crafted with care to balance functionality and
-            aesthetics."
+              text="I craft visually appealing websites with a strong focus on user experience. Using modern technologies like React, Next.js, and 
+              Tailwind CSS, I build fast, responsive interfaces that are both functional and easy to navigate. My approach emphasizes usability, 
+              performance optimization, and adherence to best practices, ensuring a smooth and enjoyable interaction for all users."
             />
           </div>
           <div className={` sticky top-4 lg:static lg:top-auto  rounded-2xl `}>
             <CardTextOnly
               heading="Back-end Development"
-              text="I build robust and scalable back-end systems. My focus is on ensuring smooth server-side operations. By integrating APIs and
-            managing databases, I ensure that the back-end supports 
-            seamless user experiences and meets business needs.
-            Each project is built with attention to performance, security, and reliability."
+              text="I create robust and scalable back-end solutions that ensure your application runs smoothly. Leveraging tools like Spring Boot, 
+              I develop secure and efficient APIs while managing database operations. My focus on performance, security, and reliability ensures your 
+              back-end aligns with both technical needs and business objectives."
             />
           </div>
         </div>
@@ -53,3 +50,4 @@ export default function MyServices() {
     </div>
   );
 }
+

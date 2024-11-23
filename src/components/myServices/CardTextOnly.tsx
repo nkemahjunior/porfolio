@@ -10,7 +10,7 @@ export default function CardTextOnly({
   text: string;
   }) {
   
-  const mango = 0;
+
   return (
     <div
       style={{
