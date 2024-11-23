@@ -25,10 +25,11 @@ const cvariants: Variants = {
   },
 };
 
-export default function NavLi({ text, link }: { text: string; link: string }) {
+export default function NavLi({ text, link, setShowNavMobile }: { text: string; link: string, setShowNavMobile: (arg:boolean) => void }) {
   return (
     <motion.li variants={cvariants} whileHover={{ scale: 1.1 }}>
       <Link
+        onClick={() => setShowNavMobile(false)}
         href={`#${link}`}
         className=" hover:text-gray-400 duration-300 delay-75"
       >

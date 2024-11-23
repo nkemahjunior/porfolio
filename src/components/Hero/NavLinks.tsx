@@ -6,9 +6,10 @@ import NavLi from "./NavLi";
 
 interface fnProps {
   showNavMobile: boolean;
+  setShowNavMobile: (arg: boolean) => void;
 }
 
-export default function NavLinks({ showNavMobile }: fnProps) {
+export default function NavLinks({ showNavMobile, setShowNavMobile }: fnProps) {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -60,9 +61,9 @@ export default function NavLinks({ showNavMobile }: fnProps) {
       `}
       //   onClick={() => setShowNavMobile(false)}
     >
-      <NavLi text="Home" link="hero" />
-      <NavLi text="My Services" link="services" />
-      <NavLi text="My Projects" link="projects" />
+      <NavLi setShowNavMobile={setShowNavMobile}  text="Home" link="hero" />
+      <NavLi setShowNavMobile={setShowNavMobile} text="My Services" link="services" />
+      <NavLi setShowNavMobile={setShowNavMobile} text="My Projects" link="projects" />
       {/* <NavLi text="About me" link=""/> */}
     </motion.ul>
   );

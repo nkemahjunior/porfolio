@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export function useGetLightBeamVariant() {
-  const [variant, setVariant] = useState("small");
+  const [variant, setVariant] = useState("initialProp");
 
   useEffect(() => {
     const handleResize = () => {
