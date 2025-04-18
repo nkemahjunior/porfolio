@@ -17,7 +17,7 @@ export default function HeroButton() {
       whileHover={{ scale: 0.95 }}
       className=" w-full flex flex-col items-center gap-y-8 p-4"
     >
-      <p className=" text-center text-xl md:text-2xl">
+      <p className=" text-center text-base md:text-xl">
         Have an idea in mind? Send a message, let&apos;s bring your vision to
         life!
       </p>

@@ -24,7 +24,7 @@ export default function MyServices() {
       </motion.h1>
 
       <div
-        className="    w-full   flex justify-center lg:flex-none
+        className="w-full flex justify-center lg:flex-none
        
       "
       >
