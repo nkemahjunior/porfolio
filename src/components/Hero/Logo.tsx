@@ -9,7 +9,8 @@ export default function Logo() {
           href={"#"}
           className={`${RubikIso.className} text-7xl md:text-8xl   lg:text-8xl`}
         >
-          Z
+          {/* Z */}
+          N
         </Link>
       </li>
     </ul>

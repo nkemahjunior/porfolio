@@ -24,9 +24,16 @@ export default function MyProjects() {
       <div className="  space-y-16 md:space-y-20">
         <ProjectsCard
           underDevelopment={true}
+          cardDesc=" This is a restaurant manager application that allows managers to view restaurant statistics, manage menus, manage orders and schedules, run advertisements, and receive payments."
+          githubLink="https://github.com/nkemahjunior/-zeco-eats"
+          liveLink="https://github.com/nkemahjunior/-zeco-eats"
+          imagePath="/eats-manager.webp"
+        />
+        <ProjectsCard
+          underDevelopment={false}
           cardDesc=" This is a food delivery application where users can browse different dishes from different restaurants, make orders and receive their food at their desired location"
-          githubLink="https://github.com/nkemahjunior/zeco-eats"
-          liveLink="https://github.com/nkemahjunior/zeco-eats"
+          githubLink="https://github.com/nkemahjunior/-zeco-eats"
+          liveLink="https://zeco-eats.vercel.app/home"
           imagePath="/eats.webp"
         />
         <ProjectsCard
